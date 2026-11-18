@@ -1,1 +1,315 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Davoude's portfolio - software projects, capstone work, and Salesforce solutions.">
+  <meta name="theme-color" content="#0a0a0a">
+  <title>Davoude — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="nav-wrap">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Davoude — back to top">
+        <span class="brand-mark">D</span>
+        <span>davoude<span class="dot">.</span></span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+      </div>
+
+      <a class="nav-cta" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> Available for opportunities</p>
+        <h1>Building useful<br><span>digital systems.</span></h1>
+        <p class="hero-lede">I'm Davoude, a developer turning real-world needs into practical, thoughtfully designed solutions.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#about">More about me <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="Decorative project preview">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="hero-card">
+          <div class="hero-card-top">
+            <span></span><span></span><span></span>
+            <small>PROJECT PREVIEW</small>
+          </div>
+          <div class="hero-card-body">
+            <aside>
+              <div class="mini-brand"></div>
+              <i class="active"></i><i></i><i></i><i></i>
+            </aside>
+            <div class="dashboard">
+              <div class="dash-head">
+                <div><b>Overview</b><small>Project workspace</small></div>
+                <div class="avatar">D</div>
+              </div>
+              <div class="metric-row">
+                <div><small>Records</small><strong>1,284</strong></div>
+                <div><small>Active</small><strong>92%</strong></div>
+              </div>
+              <div class="chart">
+                <div class="chart-bars">
+                  <i style="--h: 42%"></i><i style="--h: 58%"></i><i style="--h: 48%"></i>
+                  <i style="--h: 76%"></i><i style="--h: 64%"></i><i style="--h: 88%"></i>
+                  <i style="--h: 72%"></i><i style="--h: 96%"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Areas of expertise">
+      <div class="ticker-track">
+        <span>Document Systems</span><b>✦</b>
+        <span>Web Development</span><b>✦</b>
+        <span>Salesforce</span><b>✦</b>
+        <span>UI/UX Design</span><b>✦</b>
+        <span>Problem Solving</span><b>✦</b>
+        <span>Document Systems</span><b>✦</b>
+        <span>Web Development</span><b>✦</b>
+        <span>Salesforce</span><b>✦</b>
+      </div>
+    </section>
+
+    <section class="work container" id="work">
+      <header class="section-heading reveal">
+        <div>
+          <p class="eyebrow">01 / Selected work</p>
+          <h2>Projects with purpose.</h2>
+        </div>
+        <p>A focused collection of systems built to organize work, support operations, and solve practical problems.</p>
+      </header>
+
+      <div class="project-list">
+        <article class="project project-featured reveal">
+          <div class="project-info">
+            <div class="project-number">01</div>
+            <div>
+              <p class="project-type">Document Management / Web System</p>
+              <h3>CIAC Document Management System</h3>
+              <p class="project-desc">A centralized platform concept for organizing, tracking, and managing documents with clearer workflows and improved accessibility.</p>
+              <ul class="tags" aria-label="Technologies">
+                <li>Document Workflow</li>
+                <li>Records</li>
+                <li>Web App</li>
+              </ul>
+            </div>
+            <a class="project-link" href="#contact" aria-label="Ask about CIAC Document Management System">View project <span>↗</span></a>
+          </div>
+          <div class="project-preview preview-blue" role="img" aria-label="CIAC Document Management System interface preview">
+            <div class="browser">
+              <div class="browser-bar"><span></span><span></span><span></span><b>ciac-document-system</b></div>
+              <div class="browser-app">
+                <aside>
+                  <div class="app-logo"><i></i></div>
+                  <span class="app-nav active"></span><span class="app-nav"></span><span class="app-nav"></span>
+                </aside>
+                <div class="app-main">
+                  <div class="app-title"><div><small>DOCUMENTS</small><strong>Document Overview</strong></div><b>+ Add new</b></div>
+                  <div class="app-cards">
+                    <div><small>Total documents</small><strong>248</strong><em>+12%</em></div>
+                    <div><small>Pending review</small><strong>32</strong><em>Today</em></div>
+                    <div><small>Archived</small><strong>1,052</strong><em>All time</em></div>
+                  </div>
+                  <div class="document-table">
+                    <div><b>Recent documents</b><small>View all</small></div>
+                    <p><i class="pdf">PDF</i><span><b>2026 Annual Report</b><small>Updated 2 hours ago</small></span><em>Approved</em></p>
+                    <p><i class="doc">DOC</i><span><b>Community Records</b><small>Updated yesterday</small></span><em>Review</em></p>
+                    <p><i class="xls">XLS</i><span><b>Monthly Summary</b><small>Updated Nov 16</small></span><em>Approved</em></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-info">
+            <div class="project-number">02</div>
+            <div>
+              <p class="project-type">Capstone / Government & Community</p>
+              <h3>MENRO Management System</h3>
+              <p class="project-desc">A capstone solution designed around municipal environmental operations, records, reporting, and public-service workflows.</p>
+              <ul class="tags" aria-label="Project focus">
+                <li>Capstone</li>
+                <li>Records</li>
+                <li>Reporting</li>
+              </ul>
+            </div>
+            <a class="project-link" href="#contact" aria-label="Ask about MENRO Management System">View project <span>↗</span></a>
+          </div>
+          <div class="project-preview preview-green" role="img" aria-label="MENRO Management System interface preview">
+            <div class="browser">
+              <div class="browser-bar"><span></span><span></span><span></span><b>menro-system</b></div>
+              <div class="browser-app green-app">
+                <aside>
+                  <div class="app-logo"><i></i></div>
+                  <span class="app-nav active"></span><span class="app-nav"></span><span class="app-nav"></span>
+                </aside>
+                <div class="app-main">
+                  <div class="app-title"><div><small>ENVIRONMENT</small><strong>Operations Dashboard</strong></div><b>Generate report</b></div>
+                  <div class="menro-grid">
+                    <div class="environment">
+                      <div class="leaf leaf-a"></div><div class="leaf leaf-b"></div><div class="leaf leaf-c"></div>
+                      <div class="ring"><strong>86%</strong><small>Compliance</small></div>
+                    </div>
+                    <div class="activity">
+                      <b>Recent activities</b>
+                      <p><i></i><span><strong>Monitoring visit</strong><small>Barangay 2</small></span></p>
+                      <p><i></i><span><strong>Permit renewal</strong><small>Processing</small></span></p>
+                      <p><i></i><span><strong>Waste report</strong><small>Submitted</small></span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-info">
+            <div class="project-number">03</div>
+            <div>
+              <p class="project-type">CRM / Salesforce</p>
+              <h3>Salesforce Solutions</h3>
+              <p class="project-desc">A collection of CRM-focused work exploring contacts, workflows, automation, reports, and practical business processes.</p>
+              <ul class="tags" aria-label="Technologies">
+                <li>Salesforce</li>
+                <li>CRM</li>
+                <li>Automation</li>
+              </ul>
+            </div>
+            <a class="project-link" href="#contact" aria-label="Ask about Salesforce Solutions">View project <span>↗</span></a>
+          </div>
+          <div class="project-preview preview-orange" role="img" aria-label="Salesforce solutions interface preview">
+            <div class="browser salesforce-preview">
+              <div class="browser-bar"><span></span><span></span><span></span><b>salesforce-workspace</b></div>
+              <div class="browser-app sf-app">
+                <aside>
+                  <div class="app-logo sf-logo">s</div>
+                  <span class="app-nav active"></span><span class="app-nav"></span><span class="app-nav"></span>
+                </aside>
+                <div class="app-main">
+                  <div class="app-title"><div><small>SALES CLOUD</small><strong>Performance</strong></div><b>New record</b></div>
+                  <div class="sf-grid">
+                    <div class="pipeline">
+                      <b>Opportunity pipeline</b>
+                      <div class="pipeline-line"><i style="--w: 88%"></i></div>
+                      <div class="pipeline-line"><i style="--w: 68%"></i></div>
+                      <div class="pipeline-line"><i style="--w: 46%"></i></div>
+                      <div class="pipeline-line"><i style="--w: 82%"></i></div>
+                    </div>
+                    <div class="goal">
+                      <div class="goal-ring"><strong>72%</strong></div>
+                      <small>Quarterly goal</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container about-grid">
+        <div class="about-label reveal">
+          <p class="eyebrow">02 / About me</p>
+          <div class="portrait" aria-label="Portfolio portrait placeholder">
+            <div class="portrait-ring"></div>
+            <span>D</span>
+          </div>
+        </div>
+        <div class="about-copy reveal">
+          <h2>I turn complex problems into clear, useful solutions.</h2>
+          <p>I am a developer interested in building systems that make everyday work easier. My projects span document management, capstone development, web applications, and Salesforce-based CRM solutions.</p>
+          <p>I care about the full experience: understanding the requirement, organizing the workflow, creating a clear interface, and delivering something people can actually use.</p>
+          <a class="text-link" href="#contact">Let's work together <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills container" id="skills">
+      <header class="section-heading reveal">
+        <div>
+          <p class="eyebrow">03 / Capabilities</p>
+          <h2>What I work with.</h2>
+        </div>
+      </header>
+      <div class="skill-grid reveal">
+        <article>
+          <span>01</span>
+          <h3>Development</h3>
+          <p>Web systems, application logic, database-driven features, and responsive interfaces.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>CRM & Automation</h3>
+          <p>Salesforce concepts, records, workflows, reports, and practical automation.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Document Systems</h3>
+          <p>Organizing records, document workflows, review stages, and administrative processes.</p>
+        </article>
+        <article>
+          <span>04</span>
+          <h3>UI & UX</h3>
+          <p>Clear layouts, reusable components, mobile responsiveness, and user-centered decisions.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact container" id="contact">
+      <div class="contact-card reveal">
+        <p class="eyebrow">04 / Get in touch</p>
+        <h2>Have an opportunity<br>or an interesting project?</h2>
+        <div class="contact-bottom">
+          <a class="button button-light" href="mailto:hello@davoude.dev">Start a conversation <span aria-hidden="true">↗</span></a>
+          <p>Open to internships, graduate opportunities, and collaborative work.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#top"><span class="brand-mark">D</span><span>davoude<span class="dot">.</span></span></a>
+      <p>© <span id="year">2026</span> Davoude. Built with intention.</p>
+      <div class="socials">
+        <a href="https://github.com/Davoude" target="_blank" rel="noreferrer">GitHub ↗</a>
+        <a href="#top">LinkedIn ↗</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
