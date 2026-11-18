@@ -65,7 +65,7 @@
 .impact-grid { display: block; text-align: center; }
 .impact-grid .eyebrow { text-align: center; }
 .impact-grid h2 { max-width: 760px; margin: 0 auto 42px; color: var(--ink); }
-.impact-items { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; text-align: left; }
+.impact-items { width: min(100%, 980px); margin: 0 auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; text-align: center; }
 .impact-items article { padding: 24px 0; border-top: 1px solid rgba(17,17,15,.2); }
 .impact-items h3 { margin: 0 0 12px; font-size: 20px; letter-spacing: -.03em; }.impact-items p { margin: 0; color: #68735b; font-size: 13px; line-height: 1.7; }
 .case-next { padding: 85px 0; }.case-next a { display: flex; align-items: center; justify-content: space-between; padding-bottom: 18px; border-bottom: 1px solid var(--ink); font-size: 14px; font-weight: 800; }.case-next strong { color: #68735b; }
