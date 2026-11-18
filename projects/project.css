@@ -4,7 +4,9 @@
 .case-hero { min-height: 610px; display: grid; grid-template-columns: 1.05fr .95fr; align-items: center; padding-top: 70px; }
 .case-hero h1 { margin: 0; font-size: clamp(58px, 7vw, 94px); line-height: .92; letter-spacing: -.075em; }
 .case-hero h1 span { color: #88887f; }
-.case-intro { max-width: 580px; margin: 30px 0 42px; color: var(--muted); font-size: 19px; line-height: 1.65; }
+.case-intro { max-width: 580px; margin: 26px 0 0; color: var(--muted); font-size: 17px; line-height: 1.7; }
+.case-intro + .case-intro { margin-top: 12px; }
+.case-hero-copy .case-meta { margin-top: 34px; }
 .case-meta { display: flex; flex-wrap: wrap; gap: 34px; }
 .case-meta div { display: flex; flex-direction: column; gap: 7px; }
 .case-meta small { color: var(--muted); font: 500 10px "DM Mono", monospace; text-transform: uppercase; letter-spacing: .08em; }
