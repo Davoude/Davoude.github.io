@@ -11,10 +11,10 @@ Put the screenshot files in `images/menro/` using these names:
 - `dashboard3.png`
 - `dashboard4.png`
 - `dashboard5.png`
-- `waste-data.jpg`
-- `validation-reports.jpg`
-- `user-management.jpg`
-- `announcements.jpg`
+- `waste-data.png`
+- `validation-reports.png`
+- `user-management.png`
+- `announcements.png`
 
 The MENRO **View project** link opens the case-study page at `projects/menro.html`.
 
