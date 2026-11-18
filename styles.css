@@ -95,6 +95,8 @@ button, input { font: inherit; }
 .text-link:hover span { transform: translateX(5px); }
 
 .hero-visual { position: relative; height: 520px; display: grid; place-items: center; }
+.about-portrait-wrap { justify-items: end; }
+.about-portrait-wrap .portrait { width: min(320px, 85%); height: 470px; }
 .orbit { position: absolute; border: 1px solid rgba(17,17,15,.08); border-radius: 50%; }
 .orbit-one { width: 470px; height: 470px; }
 .orbit-two { width: 350px; height: 350px; }
