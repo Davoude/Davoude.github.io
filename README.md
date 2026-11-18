@@ -1,6 +1,6 @@
-# Davoude Portfolio
+# David Alvarez Portfolio
 
-Personal portfolio for my document management system, MENRO capstone, and Salesforce projects.
+Personal portfolio for David Alvarez: document management system and MENRO capstone projects.
 
 ## Adding MENRO screenshots
 
