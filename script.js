@@ -45,3 +45,34 @@ document.querySelectorAll(".case-shot").forEach((shot) => {
   image.addEventListener("error", () => shot.classList.remove("has-image"));
   markLoaded();
 });
+
+document.querySelectorAll(".dashboard-slider").forEach((slider) => {
+  const slides = [...slider.querySelectorAll(".dashboard-slide")];
+  const dots = [...slider.querySelectorAll(".slider-dot")];
+  const count = slider.querySelector(".slider-count b");
+  let current = 0;
+
+  const showSlide = (index) => {
+    current = (index + slides.length) % slides.length;
+    slides.forEach((slide, slideIndex) => slide.classList.toggle("active", slideIndex === current));
+    dots.forEach((dot, dotIndex) => {
+      dot.classList.toggle("active", dotIndex === current);
+      dot.toggleAttribute("aria-current", dotIndex === current);
+    });
+    if (count) count.textContent = String(current + 1).padStart(2, "0");
+  };
+
+  slides.forEach((slide) => {
+    const image = slide.querySelector("img");
+    if (!image) return;
+    const markLoaded = () => {
+      if (image.naturalWidth > 0) slide.classList.add("has-image");
+    };
+    image.addEventListener("load", markLoaded);
+    markLoaded();
+  });
+
+  slider.querySelector(".slider-prev")?.addEventListener("click", () => showSlide(current - 1));
+  slider.querySelector(".slider-next")?.addEventListener("click", () => showSlide(current + 1));
+  dots.forEach((dot) => dot.addEventListener("click", () => showSlide(Number(dot.dataset.target) - 1)));
+});

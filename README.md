@@ -1,14 +1,16 @@
-# Davoude.github.io
-Personal portfolio showcasing capstone, document management system, and Salesforce projects.
 # Davoude Portfolio
 
 Personal portfolio for my document management system, MENRO capstone, and Salesforce projects.
 
 ## Adding MENRO screenshots
 
-Put the JPG files in `images/menro/` using these names:
+Put the screenshot files in `images/menro/` using these names:
 
-- `dashboard.jpg`
+- `dashboard.png`
+- `dashboard2.png`
+- `dashboard3.png`
+- `dashboard4.png`
+- `dashboard5.png`
 - `waste-data.jpg`
 - `validation-reports.jpg`
 - `user-management.jpg`
