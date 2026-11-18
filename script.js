@@ -32,3 +32,16 @@ document.querySelectorAll(".reveal").forEach((element) => revealObserver.observe
 
 const year = document.querySelector("#year");
 if (year) year.textContent = new Date().getFullYear();
+
+document.querySelectorAll(".case-shot").forEach((shot) => {
+  const image = shot.querySelector("img");
+  if (!image) return;
+
+  const markLoaded = () => {
+    if (image.naturalWidth > 0) shot.classList.add("has-image");
+  };
+
+  image.addEventListener("load", markLoaded);
+  image.addEventListener("error", () => shot.classList.remove("has-image"));
+  markLoaded();
+});

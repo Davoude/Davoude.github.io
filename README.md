@@ -4,6 +4,18 @@ Personal portfolio showcasing capstone, document management system, and Salesfor
 
 Personal portfolio for my document management system, MENRO capstone, and Salesforce projects.
 
+## Adding MENRO screenshots
+
+Put the JPG files in `images/menro/` using these names:
+
+- `dashboard.jpg`
+- `waste-data.jpg`
+- `validation-reports.jpg`
+- `user-management.jpg`
+- `announcements.jpg`
+
+The MENRO **View project** link opens the case-study page at `projects/menro.html`.
+
 ## Run locally
 
 Open `index.html` directly in a browser, or serve the folder:
